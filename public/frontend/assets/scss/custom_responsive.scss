@@ -1,0 +1,63 @@
+.span-email_newsletter {
+  display: none;
+}
+
+.sys-button {
+  display: none;
+}
+@media (max-width: 570px) {
+  input {
+    &.email_newsletter {
+      &:-webkit-input-placeholder {
+        /* Edge */
+        // color: red;
+        opacity: 0;
+      }
+
+      &:-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: red;
+        opacity: 0;
+      }
+
+      &::placeholder {
+        color: red;
+        opacity: 0;
+      }
+    }
+  }
+  .span-email_newsletter {
+    display: block;
+    color: white;
+  }
+
+  .about-one__left-img-box {
+    display: none;
+  }
+}
+
+.testimonials-one__carousel {
+  .owl-nav {
+    span {
+      padding: 22px;
+      font-size: 32pt;
+      color: #475ddb;
+      font-weight: bolder;
+      transition: 0.5s;
+    }
+    button {
+      &:hover {
+        background: transparent !important;
+        span {
+          color: #ffbf3b;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .sys-button {
+    display: block;
+  }
+}

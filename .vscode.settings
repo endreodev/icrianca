@@ -1,0 +1,66 @@
+{
+  "workbench.colorTheme": "Omni",
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  // "editor.rulers": [170, 200],
+  "editor.rulers": [
+    80, // 2nd ruler with no color option
+    {
+      "column": 110, // spacing of 1st column from left
+      "color": "#ff9900" // orange, Go Vols!
+    },
+    {
+      "column": 160, // third ruler
+      "color": "#9f0af5" // purple, go Pirates!
+    }
+  ],
+  "editor.semanticHighlighting.enabled": false,
+  "editor.formatOnSave": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.includeLanguages": {
+    "blade": "html"
+  },
+  "files.associations": {
+    ".blade.php": "html",
+    ".tpl": "html",
+    ".env": "bat"
+  },
+  "emmet.triggerExpansionOnTab": true, // enable tab to expanse emmet tags
+  "blade.format.enable": true, // if you would like to enable blade format
+  "[blade]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "onecentlin.laravel-blade",
+    "editor.rulers": [170, 200],
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.autofetch": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.accessibilitySupport": "off",
+  "git.pruneOnFetch": true,
+  "editor.wordWrap": "off",
+  "window.zoomLevel": -1,
+  "bladeFormatter.format.wrapLineLength": 290
+}

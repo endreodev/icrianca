@@ -1,0 +1,140 @@
+input {
+  color: black !important;
+}
+
+.form-group .col-12 {
+  padding-right: 0 !important;
+}
+
+.form-control {
+  border: 1px solid #7e7e7e !important;
+}
+
+.default-select,
+.select2-selection__rendered {
+  border: 1px solid #7e7e7e !important;
+  border-radius: 20px !important;
+}
+@media (min-width: 1900px) {
+  .default-select,
+.select2-selection__rendered {
+    line-height: 50px !important;
+    min-height: 50px !important;
+  }
+}
+@media (min-width: 1680px) {
+  .default-select,
+.select2-selection__rendered {
+    line-height: 50px !important;
+    min-height: 50px !important;
+  }
+}
+
+.select2-selection {
+  border: none !important;
+  box-shadow: none !important;
+}
+@media (max-width: 1680px) {
+  .select2-selection {
+    line-height: 50px !important;
+    min-height: 50px !important;
+  }
+}
+
+@media (min-width: 1900px) {
+  .select2-selection__arrow {
+    top: 15px !important;
+  }
+}
+@media (min-width: 1680px) {
+  .select2-selection__arrow {
+    top: 15px !important;
+  }
+}
+
+.form-group label {
+  color: #082280 !important;
+}
+
+.auth-form label {
+  color: white !important;
+}
+.auth-form img {
+  filter: brightness(0) invert(1);
+}
+
+input:disabled {
+  opacity: 50% !important;
+  cursor: not-allowed !important;
+}
+
+.banner-horizontal {
+  margin-bottom: 250px !important;
+}
+
+.select-image {
+  background-position: center top;
+  margin-bottom: 10px;
+  border: 1px solid silver;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  height: 100% !important;
+  transition: 0.5s;
+}
+.select-image span {
+  padding: 5px 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.select-image.visible {
+  justify-content: flex-end;
+}
+.select-image.visible span {
+  background: #0b2a97;
+  color: white !important;
+  font-size: 10pt;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+#geocoder-container > div {
+  min-width: 50%;
+  margin-left: 25%;
+}
+
+.nav-header .brand-title {
+  max-width: inherit;
+}
+
+.is-invalid .select2-selection__rendered {
+  border: solid 1px red !important;
+}
+.is-invalid input {
+  border: solid 1px red !important;
+}
+
+.dropzone {
+  border-radius: 5px;
+  border-color: var(--blue);
+  position: relative;
+}
+.dropzone .dz-preview .dz-image img {
+  width: 100%;
+  height: auto;
+}
+.dropzone .dz-message {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 20%;
+}
+
+input.valid {
+  border: solid 1px green !important;
+}
+
+/*# sourceMappingURL=custom.css.map */

@@ -1,0 +1,242 @@
+.preloader__image {
+  width: 200px !important;
+}
+
+.main-slider-two {
+  margin-top: 0px !important;
+}
+
+.swiper-slide img {
+  opacity: 1 !important;
+}
+
+.main-slider .container {
+  padding-bottom: 313px !important;
+}
+
+.registration-one__right {
+  margin-top: 0 !important;
+}
+
+.logo-footer {
+  filter: brightness(0) invert(1);
+}
+
+
+.cta-one__wrapper {
+  background-color: #1153a9 !important;
+}
+
+
+.th-btn {
+  background-color: #08336b !important;
+  color: white !important;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  border: none;
+  outline: none !important;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 16px 50px 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  letter-spacing: 0.1em;
+  z-index: 1;
+}
+
+.th-btn:hover {
+  background-color: #062b5c !important;
+}
+
+.courses-one__single-content-overlay-img {
+  top: -25px !important;
+}
+
+.course-details__new-courses-list-item-img {
+  top: -17px !important;
+}
+
+.tag-polo {
+  margin-left: 16%;
+}
+
+.main-menu__list li {
+  margin-left: 25px !important;
+}
+
+.main-menu__list li>ul>li {
+  margin-left: 0px !important;
+}
+
+.footer-widget__social-links-list li a {
+  background-color: #8948ce;
+}
+
+.counter-one__right-text,
+.odometer-inside {
+  color: #4d5fe3;
+}
+
+
+.video-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin: 20px 0 35px 0;
+}
+
+.video-container::after {
+  padding-top: 56.25%;
+  display: block;
+  content: '';
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#gallery {
+  padding-top: 40px;
+}
+
+@media screen and (min-width: 991px) {
+  #gallery {}
+}
+
+.img-wrapper {
+  position: relative;
+  margin-top: 15px;
+}
+
+.img-wrapper img {
+  width: 100%;
+}
+
+.img-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.img-overlay i {
+  color: #fff;
+  font-size: 3em;
+}
+
+#overlay {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: 999;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#overlay img {
+  margin: 0;
+  width: 80%;
+  height: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+  padding: 5%;
+}
+
+@media screen and (min-width: 768px) {
+  #overlay img {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #overlay img {
+    width: 50%;
+  }
+}
+
+#nextButton {
+  color: #fff;
+  font-size: 2em;
+  -webkit-transition: opacity 0.8s;
+  transition: opacity 0.8s;
+}
+
+#nextButton:hover {
+  opacity: 0.7;
+}
+
+@media screen and (min-width: 768px) {
+  #nextButton {
+    font-size: 3em;
+  }
+}
+
+#prevButton {
+  color: #fff;
+  font-size: 2em;
+  -webkit-transition: opacity 0.8s;
+  transition: opacity 0.8s;
+}
+
+#prevButton:hover {
+  opacity: 0.7;
+}
+
+@media screen and (min-width: 768px) {
+  #prevButton {
+    font-size: 3em;
+  }
+}
+
+#exitButton {
+  color: #fff;
+  font-size: 2em;
+  -webkit-transition: opacity 0.8s;
+  transition: opacity 0.8s;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+#exitButton:hover {
+  opacity: 0.7;
+}
+
+@media screen and (min-width: 768px) {
+  #exitButton {
+    font-size: 3em;
+  }
+}
